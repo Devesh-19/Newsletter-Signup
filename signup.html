@@ -45,12 +45,12 @@
         <link href="css/styles.css" rel="stylesheet">
     </head>
     <body class="text-center">
-        <form class="form-signin">
+        <form class="form-signin" action="/" method="post">
             <img class="mb-4" src="Images/logo.png" alt="" width="100" height="100">
             <h1 class="h3 mb-3 font-weight-normal">Signup to My Newsletter</h1>
-            <input type="fname" class="form-control" placeholder="First Name" autofocus>
-            <input type="lname" class="form-control" placeholder="Last Name">
-            <input type="email" class="form-control" placeholder="Email address">
+            <input type="text" class="form-control" placeholder="First Name" name="fname" autofocus>
+            <input type="text" class="form-control" placeholder="Last Name" name="lname">
+            <input type="email" class="form-control" placeholder="Email address" name="email">
             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Me Up!</button>
             <p class="mt-5 mb-3 text-muted">&copy; Buck Ltd.</p>
         </form>
